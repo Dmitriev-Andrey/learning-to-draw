@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <rect width="1200" height="900" fill="#fffaf2"/>
+  <style>
+    .title { font: 700 42px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #302a27; }
+    .label { font: 500 27px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #4c403b; }
+    .small { font: 500 23px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #665953; }
+    .guide { fill: none; stroke: #c9bdb5; stroke-width: 5; stroke-dasharray: 14 14; }
+    .skull { fill: none; stroke: #514641; stroke-width: 12; stroke-linecap: round; stroke-linejoin: round; }
+    .jaw { fill: none; stroke: #d76d57; stroke-width: 14; stroke-linecap: round; stroke-linejoin: round; }
+    .arrow { fill: none; stroke: #d76d57; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+  <text x="600" y="76" text-anchor="middle" class="title">Как присоединить челюсть к кругу</text>
+  <text x="600" y="118" text-anchor="middle" class="small">Основа головы анфас — без черт лица и волос</text>
+
+  <!-- construction -->
+  <circle cx="520" cy="390" r="225" class="skull"/>
+  <path d="M 520 165 L 520 710" class="guide"/>
+  <path d="M 298 390 L 742 390" class="guide"/>
+
+  <!-- jaw begins slightly below the midpoint of the skull -->
+  <circle cx="309" cy="468" r="13" fill="#d76d57"/>
+  <circle cx="731" cy="468" r="13" fill="#d76d57"/>
+  <path d="M 309 468 C 320 555, 375 630, 476 688 C 500 701, 540 701, 564 688 C 665 630, 720 555, 731 468" class="jaw"/>
+  <circle cx="520" cy="700" r="13" fill="#d76d57"/>
+
+  <!-- callouts -->
+  <path d="M 284 465 L 115 415 L 80 415" class="arrow"/>
+  <path d="M 92 405 L 78 415 L 92 425" class="arrow"/>
+  <text x="70" y="368" class="label">1. Начни чуть ниже</text>
+  <text x="70" y="401" class="label">середины круга</text>
+
+  <path d="M 520 700 L 780 730 L 815 730" class="arrow"/>
+  <path d="M 803 720 L 817 730 L 803 740" class="arrow"/>
+  <text x="775" y="705" class="label">2. Отметь небольшой,</text>
+  <text x="775" y="738" class="label">мягкий подбородок</text>
+
+  <path d="M 680 576 L 882 522 L 918 522" class="arrow"/>
+  <path d="M 906 512 L 920 522 L 906 532" class="arrow"/>
+  <text x="775" y="455" class="label">3. Веди линию плавно:</text>
+  <text x="775" y="488" class="label">сначала вниз, затем внутрь</text>
+
+  <!-- reminder -->
+  <rect x="105" y="790" width="990" height="68" rx="22" fill="#f5e6d9"/>
+  <text x="600" y="834" text-anchor="middle" class="label">Для твоего референса оставляй расстояние от линии глаз до подбородка коротким.</text>
+</svg>
